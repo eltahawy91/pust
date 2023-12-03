@@ -1,0 +1,12 @@
+.axil-section-gap {
+    padding: 80px 0;
+}
+.product-table-heading {
+    display: flex;
+    justify-content: space-between;
+}
+.product-table-heading .title {
+    margin-bottom: 20px;
+    font-weight: 500;
+    display: inline-block;
+}

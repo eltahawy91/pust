@@ -1,0 +1,57 @@
+.signin-header {
+  padding: 40px 100px;
+  z-index: 1;
+}
+
+.axil-signin-area,
+.signin-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.signin-header .singin-header-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.signin-header .singin-header-btn p {
+  margin-bottom: 0;
+  color: #292930;
+  font-size: 14px;
+  font-weight: 500;
+}
+.signin-header .singin-header-btn .sign-up-btn {
+  margin-left: 40px !important;
+  flex: none !important;
+}
+@media only screen and (max-width: 767px) {
+  a.axil-btn,
+  button.axil-btn {
+    padding: 12px 25px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .signin-header .singin-header-btn .sign-up-btn {
+    margin-left: 0 !important;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .signin-header .singin-header-btn {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .signin-header .site-logo {
+    margin-bottom: 20px !important;
+  }
+}
+
+.signin-header .site-logo {
+  display: inline-block;
+}

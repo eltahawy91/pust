@@ -1,0 +1,56 @@
+.bg_image--10 {
+  background-image: url("../../../src/Images/register/bg-image-10.jpg");
+}
+.bg_image--11 {
+  background-image: url("../../../src/Images/register/bg-image-9.jpg");
+}
+.axil-signin-banner {
+  height: 100vh;
+  min-height: 700px;
+  padding: 200px 50px 0 100px;
+}
+.bgImagePosition,
+.bg_image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+@media only screen and (max-width: 991px) {
+  .axil-signin-banner {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .axil-signin-form-wrap {
+    justify-content: center;
+    text-align: center;
+    margin: 150px 0 0;
+  }
+}
+
+.axil-signin-form-wrap {
+  overflow-y: auto;
+  display: flex;
+  margin: 180px -30px -30px;
+}
+.axil-signin-form {
+  max-width: 450px;
+  width: 100%;
+  padding: 30px;
+}
+.axil-signin-form .form-floating {
+  margin-bottom: 35px;
+}
+.axil-signin-form .singin-form {
+  padding-bottom: 30px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .axil-signin-banner {
+    margin-right: 50px;
+  }
+}
+
+.form-floating > label {
+  text-indent: 20px !important;
+}
