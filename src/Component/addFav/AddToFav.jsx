@@ -8,7 +8,7 @@ const AddToFav = ({ id, quantity }) => {
 
   const [bookJson, setBookJson] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:9000/products`)
+    fetch(`https://my-json-server.typicode.com/eltahawy91/pustokapi/Products`)
       .then((response) => response.json())
       .then((data) => setBookJson(data));
   }, []);

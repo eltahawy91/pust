@@ -5,7 +5,7 @@ import Navbar from "../Component/Navbar/Navbar";
 const ViewAllProducts = () => {
   const [book, setBook] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:9000/products`)
+    fetch(`https://my-json-server.typicode.com/eltahawy91/pustokapi/Products`)
       .then((response) => response.json())
       .then((data) => setBook(data));
   }, []);

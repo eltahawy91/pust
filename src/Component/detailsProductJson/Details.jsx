@@ -10,7 +10,7 @@ const Details = () => {
   const { increaseCartQuantity, favProduct } = useShoppingCart();
 
   const params = useParams();
-  const api_url = "http://localhost:9000/products";
+  const api_url = "https://my-json-server.typicode.com/eltahawy91/pustokapi/Products";
   const [bookJson, setBookJson] = useState([]);
 
   // const increament = () => {

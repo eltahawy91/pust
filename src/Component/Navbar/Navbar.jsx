@@ -23,7 +23,7 @@ const Navbar = () => {
   const [book, setBook] = useState([]);
   // console.log(cartItems);
   useEffect(() => {
-    fetch(`http://localhost:9000/products`)
+    fetch(`https://my-json-server.typicode.com/eltahawy91/pustokapi/Products`)
       .then((response) => response.json())
       .then((data) => setBook(data));
   }, []);

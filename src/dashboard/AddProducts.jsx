@@ -15,7 +15,7 @@ const AddProducts = () => {
   const [image, setImage] = useState(null);
   const [error, setError] = useState("");
   useEffect(() => {
-    fetch(`http://localhost:9000/products`)
+    fetch(`https://my-json-server.typicode.com/eltahawy91/pustokapi/Products`)
       .then((res) => res.json())
       .then((data) => {
         setProduct(data);
@@ -26,7 +26,7 @@ const AddProducts = () => {
     e.preventDefault();
     axios({
       method: "POST",
-      url: "http://localhost:9000/products",
+      url: "https://my-json-server.typicode.com/eltahawy91/pustokapi/Products",
       data: {
         title: title,
         price: price,

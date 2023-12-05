@@ -47,6 +47,19 @@
       "numPages": "520",
       "desc": "Enter the shadowy realm of \"Shadows of Deception,\" a riveting tale that unfolds in the clandestine world of stolen secrets and elusive truths. Written by the masterful storyteller [Author's Name], this suspenseful novel grips readers from the first page, plunging them into a gripping narrative of mystery, intrigue, and the dangerous allure of forbidden knowledge.",
       "id": 5
+    },
+    {
+      "title": "dfgdfgd",
+      "price": "50",
+      "category": "dfgd",
+      "publisher": "fdgdf",
+      "salsabilty": "dfgdf",
+      "ProductImage": "dfgdfgd",
+      "author": "dfgdf",
+      "numPages": "50",
+      "desc": "dfgdf",
+      "id": 6
     }
   ]
+  
 }

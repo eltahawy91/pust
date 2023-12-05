@@ -10,7 +10,7 @@ const UpdateProduct = () => {
   const params = useParams();
   const productId = params.productId;
   useEffect(() => {
-    fetch(`http://localhost:9000/products/${productId}`)
+    fetch(`https://my-json-server.typicode.com/eltahawy91/pustokapi/Products/${productId}`)
       .then((res) => res.json())
       .then((data) => {
         setProduct(data);
@@ -51,7 +51,7 @@ const UpdateProduct = () => {
   const updateProduct = async (e) => {
     e.preventDefault();
 
-    const res = await axios.put(`http://localhost:9000/products/${productId}`, {
+    const res = await axios.put(`https://my-json-server.typicode.com/eltahawy91/pustokapi/Products/${productId}`, {
       title: updatetitle,
       price: updateprice,
       category: updatecategory,

@@ -9,7 +9,7 @@ import Navbar from "../Component/Navbar/Navbar";
 const AllProduct = () => {
   const [product, setProduct] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:9000/products`)
+    fetch(`https://my-json-server.typicode.com/eltahawy91/pustokapi/Products`)
       .then((res) => res.json())
       .then((data) => {
         setProduct(data);
@@ -19,7 +19,7 @@ const AllProduct = () => {
     const productId = id;
     axios({
       method: "DELETE",
-      url: `http://localhost:9000/products/${productId}`,
+      url: `https://my-json-server.typicode.com/eltahawy91/pustokapi/Products/${productId}`,
       headers: {
         "Content-type": "application/json; charset=UTF-8",
       },

@@ -7,7 +7,7 @@ import { useParams } from "react-router-dom";
 const ShoppingCart = ({ isOpen }) => {
   const { closeCart, cartItems } = useShoppingCart();
   const [bookJson, setBookJson] = useState([]);
-  const api_url = "http://localhost:9000/products";
+  const api_url = "https://my-json-server.typicode.com/eltahawy91/pustokapi/Products";
   const params = useParams();
   console.log(cartItems);
   useEffect(() => {
