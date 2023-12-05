@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/pustok/static/css/main.a450aade.css",
-    "main.js": "/pustok/static/js/main.0c6e75a0.js",
-    "static/js/787.a1f4eee3.chunk.js": "/pustok/static/js/787.a1f4eee3.chunk.js",
-    "static/media/image.jpg": "/pustok/static/media/image.f73630be98a823c2fc5e.jpg",
-    "static/media/bg-image-9.jpg": "/pustok/static/media/bg-image-9.ee6b65c5846a75625c04.jpg",
-    "static/media/bg-image-10.jpg": "/pustok/static/media/bg-image-10.cc1e0b9e6d4e84b4bc99.jpg",
-    "static/media/saute.png": "/pustok/static/media/saute.bbec6c73d150f21f3056.png",
-    "static/media/gallary.png": "/pustok/static/media/gallary.364394ce084dfc3dfed9.png",
-    "static/media/healthcare.png": "/pustok/static/media/healthcare.9e950c59a7bd0c351709.png",
-    "static/media/product-45.webp": "/pustok/static/media/product-45.46998101ee83d1cdf1e7.webp",
-    "static/media/logo.webp": "/pustok/static/media/logo.930ffa5ca4c5a02903f6.webp",
-    "index.html": "/pustok/index.html",
-    "main.a450aade.css.map": "/pustok/static/css/main.a450aade.css.map",
-    "main.0c6e75a0.js.map": "/pustok/static/js/main.0c6e75a0.js.map",
-    "787.a1f4eee3.chunk.js.map": "/pustok/static/js/787.a1f4eee3.chunk.js.map"
+    "main.css": "/static/css/main.7c88fe94.css",
+    "main.js": "/static/js/main.0118640c.js",
+    "static/js/787.a1f4eee3.chunk.js": "/static/js/787.a1f4eee3.chunk.js",
+    "static/media/image.jpg": "/static/media/image.f73630be98a823c2fc5e.jpg",
+    "static/media/bg-image-9.jpg": "/static/media/bg-image-9.ee6b65c5846a75625c04.jpg",
+    "static/media/bg-image-10.jpg": "/static/media/bg-image-10.cc1e0b9e6d4e84b4bc99.jpg",
+    "static/media/saute.png": "/static/media/saute.bbec6c73d150f21f3056.png",
+    "static/media/gallary.png": "/static/media/gallary.364394ce084dfc3dfed9.png",
+    "static/media/healthcare.png": "/static/media/healthcare.9e950c59a7bd0c351709.png",
+    "static/media/product-45.webp": "/static/media/product-45.46998101ee83d1cdf1e7.webp",
+    "static/media/logo.webp": "/static/media/logo.930ffa5ca4c5a02903f6.webp",
+    "index.html": "/index.html",
+    "main.7c88fe94.css.map": "/static/css/main.7c88fe94.css.map",
+    "main.0118640c.js.map": "/static/js/main.0118640c.js.map",
+    "787.a1f4eee3.chunk.js.map": "/static/js/787.a1f4eee3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a450aade.css",
-    "static/js/main.0c6e75a0.js"
+    "static/css/main.7c88fe94.css",
+    "static/js/main.0118640c.js"
   ]
 }
